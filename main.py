@@ -67,7 +67,7 @@ def index():
             result, confidence = predict_tumor(file_location, model)
 
             # return result with image path for display
-            return render_template('index.html', result = result, confidence = f"{confidence*100:.2f}%", file_path = f"/uploads/{file.filename}")
+            return render_template('index.html', result = result, confidence = f"{confidence*100:.2f}", file_path = f"/uploads/{file.filename}")
     
     return render_template('index.html', result = None)
 
