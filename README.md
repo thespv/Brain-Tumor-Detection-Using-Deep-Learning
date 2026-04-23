@@ -36,7 +36,7 @@ Brain-Tumor-Detection-System/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/thespv/Brain-Tumor-Detection-Using-Deep-Learning
 cd "Brain Tumor Detection System"
 ```
 
